@@ -1,0 +1,22 @@
+{
+  "name": "RelayTestApp",
+  "reason": {"react-jsx": 3},
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": [
+    "@rescript/react", 
+    "rescript-relay"
+  ],
+  "ppx-flags": [
+    "rescript-relay/ppx"
+  ]
+}

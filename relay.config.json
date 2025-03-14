@@ -1,0 +1,7 @@
+{
+  "schema": "./schema.graphql",
+  "src": "./src",
+  "artifactDirectory": "./src/__generated__",
+  "language": "rescript",
+  "eagerEsModules": true
+}
